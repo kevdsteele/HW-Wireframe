@@ -1,0 +1,36 @@
+/* Clear Fix for Floats */
+
+.clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+
+/* HTML Elements */
+
+Body {
+background:#777;
+color:#777;
+font-family: Arial, 'Helvetica-Neue', Helvetica, sans-serif;
+font-size: 18px;
+width:960px;
+
+}
+
+h1, p {
+background: #ebebeb;
+color:#777;
+}
+
+
+/* Classes */
+
+
+.header, .nav, section, aside, footer {
+background:#ebebeb;
+}
+
+.article {
+background:#777;
+color:#ebebeb;
+}
