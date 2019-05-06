@@ -7,7 +7,7 @@
 
 }
 
-/* Set border box so Section width stays 496 */
+/* Set border box so Section width stays 495 */
 
 *, *::after, *::before {
     box-sizing: border-box;
@@ -69,6 +69,8 @@ margin:10px;
 padding:10px;
 }
 
-
+article{
+padding:10px;
+}
 
 
