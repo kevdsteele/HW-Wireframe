@@ -7,6 +7,8 @@
 
 }
 
+/* Set border box so Section width stays 496 */
+
 *, *::after, *::before {
     box-sizing: border-box;
   }
@@ -37,9 +39,18 @@ padding:10px;
 margin:10px;
 }
 
+header, nav, section, aside, footer {
+    background:#ebebeb;
+    margin:10px;
+    padding:10px;
+    display:block;
+    
+    }    
+
 section{
 float:left;
 width:495px;
+/* height based on inspecting element in chrome */
 height:237px;
 display:block;
 overflow:hidden;
@@ -50,6 +61,7 @@ margin:10px;
 aside{
 float:right;
 width:420px;
+/*height set to match section height */
 height:237px;
 display:block;
 overflow:hidden;
@@ -57,21 +69,6 @@ margin:10px;
 padding:10px;
 }
 
-
-footer{
-
-}
-
-
-
-
-header, nav, section, aside, footer {
-background:#ebebeb;
-margin:10px;
-padding:10px;
-display:block;
-
-}
 
 
 
