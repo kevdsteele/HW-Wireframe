@@ -16,10 +16,21 @@
 /* HTML Elements */
 
 article {
-    padding:10px;
-    background:#777;
-    color:#ebebeb;
-    }
+padding:10px;
+background:#777;
+color:#ebebeb;
+}
+
+aside{
+float:right;
+width:420px;
+/*height set to match section height */
+height:237px;
+display:block;
+overflow:hidden;
+margin:10px;
+padding:10px;
+}
 
 Body {
 background:#777;
@@ -40,12 +51,11 @@ margin:10px;
 }
 
 header, nav, section, aside, footer {
-    background:#ebebeb;
-    margin:10px;
-    padding:10px;
-    display:block;
-    
-    }    
+background:#ebebeb;
+margin:10px;
+padding:10px;
+display:block;
+}    
 
 section{
 float:left;
@@ -58,19 +68,7 @@ padding:10px;
 margin:10px;
 }
 
-aside{
-float:right;
-width:420px;
-/*height set to match section height */
-height:237px;
-display:block;
-overflow:hidden;
-margin:10px;
-padding:10px;
-}
 
-article{
-padding:10px;
-}
+
 
 
